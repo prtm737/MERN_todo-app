@@ -18,6 +18,7 @@ app.use((req, res, next) => {
 });
 
 app.use(express.json());
+
 app.use(userRouter);
 
 const port = process.env.PORT || 8000;
